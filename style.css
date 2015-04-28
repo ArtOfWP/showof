@@ -47,6 +47,17 @@ p {
     padding:5px 0;
 }
 
+.home .page-header {
+    padding-bottom: 10px;
+}
+.home .page-header:after {
+    display: none;
+}
+
+.page-content, .entry-content, .entry-summary {
+    margin-top: 10px;
+}
+
 .portfolio-thumbnail a,
 .portfolio-thumbnail a:hover,
 .portfolio-thumbnail a:before,
