@@ -1,0 +1,55 @@
+/*
+Theme Name:     Show Of - Your Projects
+Theme URI:      http://www.artofwp.com/themes/
+Description:    Illustratr child theme.
+Author:         Andreas Nurbo
+Author URI:     http://andreasnurbo.com
+Template:       illustratr
+Version:        0.1.0
+*/
+
+p {
+    word-wrap: break-word;
+}
+
+.site-header {
+    padding-bottom: 20px;
+}
+.site-info {
+    width: 100%;
+    text-align: center;
+}
+.site-info.half {
+    width: 50%;
+    text-align: right;
+}
+
+
+.entry-header {
+    padding-bottom: 11px;
+}
+.entry-meta {
+    padding-top:11px;
+}
+.entry-content .showof-project-url {
+    font-size: 1.1em;
+    color: #dd3333;
+    font-family: "PT Serif", serif;
+    text-align: center;
+    font-style: italic;
+    text-decoration: none;
+}
+.entry-content {
+    margin-top:20px;
+}
+
+.widget_recent_entries li {
+    padding:5px 0;
+}
+
+.portfolio-thumbnail a,
+.portfolio-thumbnail a:hover,
+.portfolio-thumbnail a:before,
+.portfolio-thumbnail a:after {
+    background: none;
+}
