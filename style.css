@@ -54,6 +54,16 @@ p {
     display: none;
 }
 
+.home .entry-meta {
+    padding:0;
+    margin-top:0;
+}
+.home .entry-meta:before {
+    display: none;
+}
+.home .page-content p {
+    margin-bottom: 10px;
+}
 .page-content, .entry-content, .entry-summary {
     margin-top: 10px;
 }
