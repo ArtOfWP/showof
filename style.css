@@ -29,7 +29,7 @@ p {
     padding-bottom: 11px;
 }
 
-.entry-header .entry-subtitle {
+.entry-header .entry-subtitle, .entry-subtitle {
     margin: 0;
     font-size: 1em;
     font-weight: 700;
