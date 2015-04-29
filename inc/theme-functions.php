@@ -1,14 +1,15 @@
 <?php
 
-function showof_the_project_link($text) {
+function showof_the_project_link($text, $no_url=false) {
     $url=get_post_meta(get_the_ID(), '_jetpack_portfolio_project_url', true);
     $project_title=get_post_meta(get_the_ID(), '_jetpack_portfolio_project_url_text', true);
-    if($url) {
+    if($url && $project_title) {
         echo '<a class="showof-project-url" href="',esc_url($url),'"">', sprintf($text, $project_title),'</a>';
-    } else {
+    } else if($no_url) {
         echo $text;
     }
 }
+
 function showof_the_subtitle($before = '', $after = '', $echo = true) {
     $subtitle = showof_get_the_subtitle();
 
