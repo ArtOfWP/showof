@@ -109,3 +109,8 @@ function showof_save_meta_box_data( $post_id ) {
     update_post_meta( $post_id, '_jetpack_portfolio_project_url_text', $text);
 }
 add_action( 'save_post', 'showof_save_meta_box_data' );
+
+/**
+ * Customizer additions.
+ */
+require get_stylesheet_directory() . '/inc/customizer.php';

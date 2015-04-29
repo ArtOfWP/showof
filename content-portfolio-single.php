@@ -28,7 +28,7 @@ if ( isset( $GLOBALS['content_width'] ) ) {
 			) );
 		?>
         <p class="showof-project-url">
-            <?php showof_the_project_link(__('Visit the %s project site','showof')) ?>
+            <?php showof_the_project_link(__('Visit the %s site','showof')) ?>
         </p>
 	</div><!-- .entry-content -->
 
