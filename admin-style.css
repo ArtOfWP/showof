@@ -1,0 +1,17 @@
+#titlediv #subtitle {
+    padding: 3px 8px;
+    font-size: 1.4em;
+    line-height: 100%;
+    height: 1.4em;
+    width: 100%;
+    outline: 0;
+    margin: 0 0 3px;
+    background-color: #fff;
+}
+
+#titlediv #subtitle-prompt-text {
+    color: #777;
+    position: absolute;
+    font-size: 1.4em;
+    padding: 4px 10px;
+}

@@ -13,6 +13,7 @@ if ( isset( $GLOBALS['content_width'] ) ) {
 	<header class="entry-header">
 		<?php the_post_thumbnail() ?>
 		<?php showof_the_project_link(the_title('<h1 class="entry-title">', '</h1>', false )); ?>
+		<?php showof_the_subtitle('<h2 class="entry-subtitle">- ', '-</h2>'); ?>
 
 		<?php echo get_the_term_list( $post->ID, 'jetpack-portfolio-type', '<span class="portfolio-entry-meta">', _x(', ', 'Used between list items, there is a space after the comma.', 'illustratr' ), '</span>' ); ?>
 	</header><!-- .entry-header -->

@@ -28,6 +28,15 @@ p {
 .entry-header {
     padding-bottom: 11px;
 }
+
+.entry-header .entry-subtitle {
+    margin: 0;
+    font-size: 1em;
+    font-weight: 700;
+    text-align: center;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
 .entry-meta {
     padding-top:11px;
 }
